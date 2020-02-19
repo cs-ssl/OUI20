@@ -1,0 +1,26 @@
+.tline {
+border-bottom:1px solid grey;
+height:28px;
+width:15px;
+margin-top:0px;
+text-align:right;
+padding-bottom:1px;
+}
+.siebui-applet-title {
+background-color:red;
+}
+.siebui-applet-header{background-color:green;border-color:red;}
+/*
+.ui-jqgrid-btable tr:nth-child(even) td {
+    background-color: white;
+}
+*/
+#newmenu2 {
+border-bottom:1px solid grey;
+height:28px;
+margin-top:0px;
+text-align:right;
+padding-bottom:3px;
+background:red;
+order:1;
+}
