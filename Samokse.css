@@ -1,26 +1,121 @@
+.newapplet{
+width:50%;
+background-color: white;
+}
 .tline {
 border-bottom:1px solid grey;
-height:28px;
-width:15px;
-margin-top:0px;
+height:32px;
+width:16px;
+margin-bottom:0px;
+margin-left:0px!important;
 text-align:right;
-padding-bottom:1px;
-}
-.siebui-applet-title {
-background-color:red;
-}
-.siebui-applet-header{background-color:green;border-color:red;}
-/*
-.ui-jqgrid-btable tr:nth-child(even) td {
-    background-color: white;
-}
-*/
-#newmenu2 {
-border-bottom:1px solid grey;
-height:28px;
-margin-top:0px;
-text-align:right;
-padding-bottom:3px;
-background:red;
+padding:0px!important;
+padding-bottom:0px;
+padding-top:0px;
+float: left;
 order:1;
 }
+.siebui-applet-title1 {
+background-color:whitesmoke;
+float:center;
+order:2;
+border:1px solid grey;
+border-bottom:0px;
+margin-bottom:0px;
+font-size: 23px;
+
+padding: 0px 5px 0px 5px !important;
+display: inline-block;
+vertical-align: middle;
+}
+.tline2 {
+border-bottom:1px solid grey;
+height:32px;
+/*width:885%;*/
+margin-bottom:0px;
+text-align:right;
+padding: 0px 0px 0px 0px !important;
+order:3;
+float: center;
+display: inline-block;
+vertical-align: bottom;
+}
+.tline3 {
+width:100%;
+/*height:28px;*/
+/*vertical-align: middle;*/
+border-top:0px solid grey;
+border-bottom:1px solid grey;
+background-color:whitesmoke;
+margin-top:0px;
+margin-bottom:0px;
+text-align:right;
+padding: 0px 0px 0px 0px !important;
+display: inline-block;
+vertical-align: bottom;
+}
+.tline4{
+margin-top:0px;
+margin-bottom: 0px !important;
+padding-left: 0px !important;
+padding: 0px 0px 0px 0px !important;
+text-align:left;
+display: inline-block;
+vertical-align: bottom;
+}
+.tline5 {
+width:45px;
+height:28px;
+border-right:0px solid grey;
+background-color:whitesmoke;
+margin:0px;
+text-align:left;
+float: left;
+padding: 0px !important;
+display: inline-block;
+vertical-align: middle;
+}
+.tline6 {
+width:45px;
+height:28px;
+border-left:1px solid grey;
+background-color:whitesmoke;
+margin:0px;
+text-align:left;
+padding-right: 5px !important;
+display: inline-block;
+vertical-align: middle;
+}
+.menu-a:before  {
+    content: url(custom/img1/No.png);
+	background-image: url(custom/img1/No.png);
+	}
+.siebui-appletmenu-btn2::before {
+content: url(img1/menu5.png); 
+/*width: 12px; height:120001111px;*/
+}
+.siebui-appletmenu-btn2 {
+text-align:left;
+padding-right: 5px !important;
+padding-left: 0px !important;
+}
+.tbl-a td{
+background-color: transparent!important;
+/*background-color: white!important;*/
+}
+.tbl-a tbody tr td:nth-child(2){
+text-align:center!important;
+padding-top: 10px;
+padding-right: 20px;
+width:60px;
+vertical-align: middle;
+}
+.tbl-td {
+background-color: green!important;
+}
+.ui-state-highlight td{
+background-color:white!important;
+}
+
+
+
